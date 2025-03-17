@@ -1,12 +1,12 @@
-title: "My project 2025"
+title: "Social Data Stories"
+description: "Exploring social data visualizations."
 author: "Leonardo Rodovero"
 email: "s240095@student.dtu.dk"
-description: "A minimal Jekyll site"
-theme: minima
-
-# If you prefer a minimal layout, you can remove or comment out the theme line
-# theme: minima
-
-# If you used a "docs" folder, ensure baseurl is empty or set correctly
-baseurl: "" 
-url: "http://localhost:4000"  # For local preview. GitHub Pages can override this.
+theme: minima  # or another GitHub-supported theme
+baseurl: ""    # if your site is at <username>.github.io, keep this blank
+url: ""        # GitHub Pages will figure out the final URL automatically
+plugins:
+  - jekyll-feed   # Example plugin if you want an RSS feed
+  # Add others as needed
+  - jemoji
+theme: jekyll-theme-midnight
